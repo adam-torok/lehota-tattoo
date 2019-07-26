@@ -1,0 +1,57 @@
+h1{
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color:white;    
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);   
+    font-style: bolder;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-style: bolder;
+    
+}
+hr{
+    color:#C09457;
+    width: 70%;
+    border: 1px solid #C09457;
+    border-radius: 10px;
+}
+p{
+    font-family:'Montserrat', sans-serif;
+    color:white;
+}
+mark{
+    color:#C09457;
+    background: none;
+}
+a{
+    color:white;
+    font-family: 'Teko', sans-serif;
+    margin: 24px 1rem 0rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.hero-left h3  {
+    color:white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    font-weight: bolder;
+}
+.hero-left p{
+    color:white;
+}
+.grid-cards h3{
+    color:white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+}
+@media (device-height : 568px) 
+   and (device-width : 320px) 
+   and (-webkit-min-device-pixel-ratio: 2){
+
+    h1{
+        font-size: 2rem;
+    }
+   }
